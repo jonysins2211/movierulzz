@@ -7,7 +7,7 @@ import re
 
 app = Flask(__name__)
 
-BASE_URL = "https://www.5movierulz.futbol/movies?sort=featured"
+BASE_URL = "https://www.5movierulz.travel/movies?sort=featured"
 
 def extract_title_from_magnet(magnet_link):
     """Extracts movie title from the magnet link's 'dn' parameter."""
